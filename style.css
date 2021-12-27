@@ -28,7 +28,6 @@ span {
   background-color: white;
   width: 700px;
   height: 400px;
-  margin-top: 30px;
   display: inline-block;
   margin-left: 50px;
   margin-top: 90px;
@@ -36,21 +35,20 @@ span {
 }
 
 #meme-text {
-  z-index: 1;
+  z-index: 2;
   display: inline-block;
   position: absolute;
   margin-top: 300px;
-  margin-left: 50px;
+  margin-left: 10px;
   color: white;
   text-shadow: black 5px 5px 5px;
   font-size: 30px;
 }
 
 #meme-image {
-  
   display: inline-block;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   width: 700px;
   height: 400px;
 }
@@ -67,20 +65,32 @@ button {
 #fire {
   background-color: red;
   color: white;
-  font-weight: bolder;
   font-size: 20px;
 }
 
 #water {
   background-color: blue;
   color: white;
-  font-weight: bolder;
   font-size: 20px;
 }
 
 #earth {
   background-color: green;
   color: white;
-  font-weight: bolder;
   font-size: 20px;
+}
+
+#memeImages {
+  z-index: 3;
+  width: 400px;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: -670px;
+}
+
+.imagens {
+  border: 1px solid black;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
 }
